@@ -1,0 +1,77 @@
+/* Default custom select styles */
+.cs-select {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+	background: #fff;
+	z-index: 100;
+	width: 100%;
+	max-width: 500px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+    margin-top: 360px;
+    margin-left: 400px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    	border-radius: 8px;
+	border-shadow:none;
+	border: 0 none;
+	background: #fff;
+	color: #000;
+}
+
+.parent div {
+	float: left;
+	clear: none;
+	
+}
+
+.submitcity {
+	border-radius: 8px;
+	border-shadow:none;
+	border: 0 none;
+	background: #cc0000;
+	color: #fff;
+	margin-left: 350px;
+	 margin-top: 358px;
+	 cursor: pointer;
+	 font-size: 30px;
+	 font-family: 'Raleway', sans-serif;
+	 height: 60px;
+	 width: 120px;
+	 
+	
+}
+
+#logout {
+	text-decoration: none;
+background-color: #EEEEEE;
+padding: 10px;
+color: #333333;
+	border-radius: 8px;
+	text-align: center;
+	border-shadow:none;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	border: 0 none;
+	background: #cc0000;
+	color: #fff;
+		 height: 30px;
+	 width: 80px;
+	 	 cursor: pointer;
+	 font-size: 20px;
+	 font-family: 'Raleway', sans-serif;
+	z-index: 999;
+}
+
+.cs-select:focus {
+	outline: none; /* For better accessibility add a style for this in your skin */
+}

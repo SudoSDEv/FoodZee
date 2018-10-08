@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+	font-family: "Raleway";
+}
+
+
+
+.container {
+	background: #cc0000;
+	color: #fff;
+	height: 100vh;
+	width: 100%;
+	padding-top: 50px;
+}
+.logo-container {
+	padding: 30px;
+}
+
+.logo-container img {
+	width: 118px;
+	height: 57px;
+}
+
+.rest {
+	background: #2980b9;
+	cursor: pointer;
+	padding: 10px;
+	margin: 20px auto;
+	text-align: center;
+	height: 200px;
+	border-radius: 10px 200px 0px 10px;
+	width: 50%;
+}
+
+.left {
+	float: left;
+	clear: both;
+	}
+
+.right {
+	float: right;
+	clear: both;
+}
+
+.fa.fa-mobile.fa-2x {
+	margin: 10px;
+}
+
+.fa.fa-envelope {
+	margin: 10px;
+}
+
+.location {
+	margin-top: 80px;
+	
+}
+
+.locationtext {
+	
+	margin: 30px;
+	font-size: 30px;
+}
+
+.name {
+		float: left;
+	clear: both;
+	margin-left: 20px;
+}
+
+#logout {
+	text-decoration: none;
+background-color: #EEEEEE;
+padding: 10px;
+color: #333333;
+	border-radius: 8px;
+	text-align: center;
+	border-shadow:none;
+	float: right;
+	margin-right: 10px;
+	border: 0 none;
+	background: #cc0000;
+	color: #fff;
+		 height: 30px;
+	 width: 80px;
+	 	 cursor: pointer;
+	 font-size: 20px;
+	 font-family: 'Raleway', sans-serif;
+	z-index: 999;
+}
+

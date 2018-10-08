@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>foodzee</title>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <div class="text">
+                <img id="logo" src="logo.png">
+                <div class="login">
+                    <a id="login" href="#loginModal">Login</a>
+                    <a id="register" href="#registerModal">Sign Up</a>
+                </div>
+            </div>
+            <video src="food.mp4" autoplay loop></video>
+        </div>
+    </div>
+
+
+<div id="loginModal" class="modalDialog">
+    <div>	<a href="#close" title="Close" class="close">✖</a>
+
+        	<form action="LoginServ" method="post">
+<table>
+	
+	<tr>
+			<th>User name:&nbsp;</th>
+			<td align="center">
+			<input type="text"  name="username" placeholder="enter your name" style="font-size: 20px;">
+			</td>
+	</tr>
+	
+	
+	<tr  >
+		<th>Password :&nbsp;</th>
+		<td>
+			<input type="password" name="userpassword" placeholder="password" style="font-size: 20px;">
+		</td>
+	</tr>
+
+</table>
+
+<input class="userbutton" type="submit" value="Login"> <br />
+<a href="#registerModal">Not a user yet?Register here</a>
+
+</form>
+    </div>
+</div>
+
+<div id="registerModal" class="modalDialog">
+    <div>	<a href="#close" title="Close" class="close">✖</a>
+
+        	<form action="RegServ">	
+		<table align="center">
+		<!--  caption style="font: bold; font-family: fantasy; font-size: 32px">Registration Form-->
+		<tr>
+			<th>Your Name&nbsp;</th>
+			<td>
+				<input type="text" name="customername" placeholder="enter your name" required="required">
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Username&nbsp;</th>
+			<td>
+				<input type="text" name="username" placeholder="use it for login" required="required">
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Password&nbsp;</th>
+			<td>
+				<input type="password" name="userpassword" placeholder="enter your password" required="required">
+			</td>
+		</tr>
+		<tr>
+			<th>Confirm password&nbsp;</th>
+			<td>
+				<input type="password" name="userpassword2" placeholder="reenter your password" required="required">
+			</td>
+		</tr>
+		<tr>
+			<th>Email&nbsp;</th>
+			<td>
+				<input type="text" name="useremail" placeholder="email" required="required">
+			</td>
+		</tr>
+		<tr>
+			<th>Phone&nbsp;</th>
+			<td>
+				<input type="number" name="userphone" placeholder="phone no" required="required">
+			</td>
+		</tr>
+		
+		<tr>
+			<th>City&nbsp;</th>
+			<td>
+				<input type="text" name="usercity" placeholder="enter your city" required="required">
+			</td>
+		</tr>
+		
+
+		<tr>
+			<th>Address&nbsp;</th>
+			<td>
+				<input type="text" name="useraddress" placeholder="enter your address" required="required">
+			</td>
+		</tr>
+				
+		</table>
+		<input class="userbutton" type="submit" value="Register">
+</form>
+    </div>
+</div>
+</body>
+</html>
